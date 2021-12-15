@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-arrow::before {
+  @apply text-4xl text-black;
+}

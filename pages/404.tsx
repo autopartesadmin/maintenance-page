@@ -67,7 +67,7 @@ const dataCars = [
   },
 ];
 
-const Home: NextPage = () => {
+const Custom404: NextPage = () => {
   useHubspotForm({
     portalId: "19669407",
     formId: "dca10e00-d207-4cc3-8de4-8b961d14b0d9",
@@ -197,4 +197,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Custom404;
