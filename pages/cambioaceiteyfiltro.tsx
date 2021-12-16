@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import * as React from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Img from "next/image";
@@ -109,6 +110,11 @@ const CambioAceite: NextPage = () => {
         },
       },
     ],
+  };
+
+  const handleClickBtnWhatsapp = () => {
+    // @ts-expect-error
+    return window.gtag_report_conversion("https://wa.link/oyf5f0");
   };
 
   return (
@@ -267,6 +273,7 @@ const CambioAceite: NextPage = () => {
           href="https://wa.link/oyf5f0"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleClickBtnWhatsapp}
         >
           <AiOutlineWhatsApp className="fixed w-16 h-16 p-2 text-3xl text-white bg-green-600 rounded-full lg:w-20 lg:h-20 bottom-10 right-10" />
         </a>
