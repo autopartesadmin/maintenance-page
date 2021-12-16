@@ -137,8 +137,9 @@ const CambioAceite: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-                Aprovecha hasta 25% de descuento en Cambio de Aceite y Filtro
-                con nuestra Promoción Especial
+                Aprovecha{" "}
+                <span className="text-[#FF3D00]"> hasta 25% de descuento</span>{" "}
+                en Cambio de Aceite y Filtro con nuestra Promoción Especial
               </h2>
               <p className="mb-3 text-lg text-center">
                 ¿Vas a viajar en estas navidades o para recibir el año nuevo?
@@ -195,16 +196,13 @@ const CambioAceite: NextPage = () => {
                 className="transition duration-300 hover:scale-110"
               >
                 <div className="p-8 shadow-md">
-                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-primary h-14 w-14">
-                    <small className="text-primary">
+                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-[#01395E] h-14 w-14">
+                    <small className="text-[#01395E]">
                       <BsWhatsapp className="text-2xl" />
                     </small>
                   </span>
                   <h3 className="mb-4 text-2xl font-bold">Escríbenos</h3>
-                  <p className="mb-4 font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. id
-                    donec
-                  </p>
+
                   <div className="flex items-center text-center text-[#01395E]">
                     <p className="flex items-center">
                       Solicitar cita
@@ -220,16 +218,13 @@ const CambioAceite: NextPage = () => {
                 className="transition duration-300 hover:scale-110"
               >
                 <div className="p-8 shadow-md">
-                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-primary h-14 w-14">
-                    <small className="text-primary">
+                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-[#01395E] h-14 w-14">
+                    <small className="text-[#01395E]">
                       <BsTelephoneForward className="text-2xl" />
                     </small>
                   </span>
                   <h3 className="mb-4 text-2xl font-bold">Llámanos </h3>
-                  <p className="mb-4 font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. id
-                    donec
-                  </p>
+
                   <div className="flex items-center text-center text-[#01395E]">
                     <p className="flex items-center">
                       Solicitar cita
@@ -245,18 +240,15 @@ const CambioAceite: NextPage = () => {
                 href="#my-hubspot-form"
               >
                 <div className="p-8 shadow-md">
-                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-primary h-14 w-14">
-                    <small className="text-primary">
+                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-[#01395E] h-14 w-14">
+                    <small className="text-[#01395E]">
                       <CgList className="text-2xl" />
                     </small>
                   </span>
                   <h3 className="mb-4 text-2xl font-bold">
                     Llena el formulario
                   </h3>
-                  <p className="mb-4 font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. id
-                    donec
-                  </p>
+
                   <div className="flex items-center text-center text-[#01395E]">
                     <p className="flex items-center">
                       Solicitar cita
