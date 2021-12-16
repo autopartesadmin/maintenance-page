@@ -7,3 +7,7 @@
 .slick-arrow::before {
   @apply text-4xl text-black;
 }
+
+* {
+  scroll-behavior: smooth;
+}

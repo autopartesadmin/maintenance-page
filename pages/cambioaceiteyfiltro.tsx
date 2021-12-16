@@ -5,6 +5,8 @@ import Img from "next/image";
 import { useHubspotForm } from "@aaronhayes/react-use-hubspot-form";
 import Slider from "react-slick";
 import { AiOutlineWhatsApp } from "react-icons/ai";
+import { BsWhatsapp, BsTelephoneForward, BsChevronRight } from "react-icons/bs";
+import { CgList } from "react-icons/cg";
 const dataCars = [
   {
     name: "AVEO DESDE",
@@ -135,18 +137,18 @@ const CambioAceite: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-                Aproveche nuestra Promoción Navideña y obtenga 10% de descuento
-                en su próximo servicio
+                Aprovecha hasta 25% de descuento en Cambio de Aceite y Filtro
+                con nuestra Promoción Especial
               </h2>
               <p className="mb-3 text-lg text-center">
-                ¿Va a viajar en estas navidades o para recibir el año nuevo?
-                Realice el cambio de aceite y filtro, y viaje con la seguridad
-                de tener su vehículo al día.
+                ¿Vas a viajar en estas navidades o para recibir el año nuevo?
+                Realiza el cambio de aceite y filtro, y viaja con la seguridad
+                de tener tu vehículo al día.
               </p>
               <p className="mb-10 text-lg text-center">
-                Sea un Cliente García-Tuñón y disfrute de todos los beneficios
-                que tenemos para usted, ya son 58 años de experiencia apoyando a
-                cada venezolano a mantener su vehículo al día.
+                Se un Cliente García-Tuñón y disfruta de todos los beneficios
+                que tenemos para ti, ya son 58 años de experiencia apoyando a
+                los venezolano a mantener su vehículo al día.
               </p>
             </div>
 
@@ -157,14 +159,17 @@ const CambioAceite: NextPage = () => {
                     <h5 className="text-3xl font-bold text-right font-montserrat">
                       {ele.name}
                     </h5>
-                    <h6 className="font-montserrat text-3xl font-bold text-right text-[#E7B864]">
+                    <h6 className="font-montserrat text-6xl font-bold text-right text-[#FF3D00]">
                       ${ele.mount}
                     </h6>
+                    <p className="text-right font-bold text-[#FF3D00]">
+                      Oferta
+                    </p>
                     <div className="relative">
                       <Img
                         src={`/Sin-título-1_${ele.id}.png`}
-                        width={300}
-                        height={300}
+                        width={350}
+                        height={350}
                       />
                     </div>
                   </div>
@@ -175,16 +180,94 @@ const CambioAceite: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-                Agende su cita para realizar el cambio de Aceite y Filtro
+                Agenda tu cita para realizar el cambio de Aceite y Filtro
               </h2>
               <p className="mb-3 text-lg text-center">
-                Llene el formulario, escríbanos al whatsapp o llámenos al
-                <a href="tel:+582122087607"> 0212-2087601. </a>
-                Tiene hasta el 22 de diciembre para asistir a la jornada ¡Los
-                esperamos!
+                Puedes contactarnos por cualquiera de estas vías. Tienes hasta
+                el 22 de diciembre para asistir a la jornada ¡Te esperamos!
               </p>
             </div>
-
+            <div className="grid max-w-6xl grid-cols-1 gap-10 py-10 mx-auto lg:grid-cols-3 md:grid-cols-2">
+              <a
+                href="https://wa.link/oyf5f0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition duration-300 hover:scale-110"
+              >
+                <div className="p-8 shadow-md">
+                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-primary h-14 w-14">
+                    <small className="text-primary">
+                      <BsWhatsapp className="text-2xl" />
+                    </small>
+                  </span>
+                  <h3 className="mb-4 text-2xl font-bold">Escríbenos</h3>
+                  <p className="mb-4 font-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. id
+                    donec
+                  </p>
+                  <div className="flex items-center text-center text-[#01395E]">
+                    <p className="flex items-center">
+                      Solicitar cita
+                      <span className="flex bg-[#01395E] rounded-full text-white p-1 ml-4 ">
+                        <BsChevronRight className="text-lg" />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="tel:+582122087607"
+                className="transition duration-300 hover:scale-110"
+              >
+                <div className="p-8 shadow-md">
+                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-primary h-14 w-14">
+                    <small className="text-primary">
+                      <BsTelephoneForward className="text-2xl" />
+                    </small>
+                  </span>
+                  <h3 className="mb-4 text-2xl font-bold">Llámanos </h3>
+                  <p className="mb-4 font-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. id
+                    donec
+                  </p>
+                  <div className="flex items-center text-center text-[#01395E]">
+                    <p className="flex items-center">
+                      Solicitar cita
+                      <span className="flex bg-[#01395E] rounded-full text-white p-1 ml-4 ">
+                        <BsChevronRight className="text-lg" />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a
+                className="transition duration-300 hover:scale-110"
+                href="#my-hubspot-form"
+              >
+                <div className="p-8 shadow-md">
+                  <span className="flex items-center justify-center mb-4 border-2 rounded-full border-primary h-14 w-14">
+                    <small className="text-primary">
+                      <CgList className="text-2xl" />
+                    </small>
+                  </span>
+                  <h3 className="mb-4 text-2xl font-bold">
+                    Llena el formulario
+                  </h3>
+                  <p className="mb-4 font-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. id
+                    donec
+                  </p>
+                  <div className="flex items-center text-center text-[#01395E]">
+                    <p className="flex items-center">
+                      Solicitar cita
+                      <span className="flex bg-[#01395E] rounded-full text-white p-1 ml-4 ">
+                        <BsChevronRight className="text-lg" />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
             <div id="my-hubspot-form" className="max-w-4xl mx-auto mt-20"></div>
           </section>
         </div>
