@@ -17,6 +17,8 @@ class MyDocument extends Document {
             type="text/css"
             href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
           />
+          <meta name="google-site-verification" content="jwPRgcMJB7WsqUZ3RlJHS9cxfAe1ZGqlnGI-uCWPSKg" />
+
         </Head>
         <body>
           <Main />
