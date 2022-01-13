@@ -35,8 +35,8 @@ const terminosCondicionesDiagnostico = () => {
           Periodo del concurso
         </h3>
         <p className="mb-3 text-lg">
-          Del 12 al 16 de enero del año 2022 (hasta las 8:00 pm del día Domingo
-          16 de enero)
+          Del 13 al 17 de enero del año 2022 (hasta las 8:00 pm del día Lunes 17
+          de enero)
         </p>
         <h3 className="text-2xl font-bold text-[#E7B864] mt-10 mb-5">
           Requisitos para validación en la participación
@@ -45,9 +45,7 @@ const terminosCondicionesDiagnostico = () => {
           Las personas que deseen participar deberán cumplir los siguientes
           pasos:
         </p>
-        <ul
-          className="list-disc list-inside "
-        >
+        <ul className="list-disc list-inside ">
           <li>Seguir la cuenta de García-Tuñón en Instagram</li>
           <li>Comentarnos cuál es el modelo del carro y el kilometraje</li>
           <li>
@@ -59,9 +57,7 @@ const terminosCondicionesDiagnostico = () => {
         <h3 className="text-2xl font-bold text-[#E7B864] mt-10 mb-5">
           Condiciones de la promoción y el premio a otorgar
         </h3>
-        <ul
-          className="list-disc list-inside "
-        >
+        <ul className="list-disc list-inside ">
           <li>Las cuentas que participen deben ser reales.</li>
           <li>El concurso es válido para Caracas y zonas aledañas.</li>
           <li>El premio a otorgar será un diagnóstico de 25 pts.</li>
@@ -69,7 +65,7 @@ const terminosCondicionesDiagnostico = () => {
           <li>Se prohíbe etiquetar a famosos o cuentas falsas.</li>
           <li>Válido únicamente para clientes nuevos.</li>
           <li>
-            El ganador/a será anunciado el día Lunes (17/01/22) en la tarde a
+            El ganador/a será anunciado el día Martes (18/01/22) en la tarde a
             las 3.30 p.m. Se usará una herramienta online de selección aleatoria
             AppSorteos. Una vez seleccionado el ganador/a, luego de pasadas las
             primeras 48 horas si no aparece, se procederá a seleccionar a otro
@@ -79,9 +75,7 @@ const terminosCondicionesDiagnostico = () => {
         <h3 className="text-2xl font-bold text-[#E7B864] mt-10 mb-5">
           Sobre los Participantes
         </h3>
-        <ul
-          className="list-disc list-inside "
-        >
+        <ul className="list-disc list-inside ">
           <li>
             Concurso válido solo para clientes que no estén registrados en la
             base de datos de García-Tuñón (Clientes Nuevos).
