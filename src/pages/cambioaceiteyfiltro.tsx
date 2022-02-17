@@ -146,7 +146,6 @@ const CambioAceite: NextPage = () => {
                 Aprovecha{" "}
                 <span className="text-[#FF3D00]"> hasta 15% de descuento</span>{" "}
                 Aprovecha 15% de descuento en Cambio de Aceite y Filtro con
-                nuestra Promoción Especial en Cambio de Aceite y Filtro con
                 nuestra Promoción Especial
               </h2>
               <p className="mb-3 text-lg text-center">
