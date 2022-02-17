@@ -11,47 +11,47 @@ import { CgList } from "react-icons/cg";
 const dataCars = [
   {
     name: "AVEO DESDE",
-    mount: 45,
+    mount: 47,
     id: "01",
   },
   {
     name: "CRUZE DESDE",
-    mount: 50,
+    mount: 53,
     id: "02",
   },
   {
     name: "OPTRA DESDE",
-    mount: 55,
+    mount: 53,
     id: "03",
   },
   {
     name: "SPARK DESDE",
-    mount: 45,
+    mount: 50,
     id: "04",
   },
   {
     name: "SILVERADO DESDE",
-    mount: 55,
+    mount: 63,
     id: "05",
   },
   {
     name: "ORLANDO DESDE",
-    mount: 45,
+    mount: 50,
     id: "06",
   },
   {
     name: "TAHOE DESDE",
-    mount: 55,
+    mount: 63,
     id: "07",
   },
   {
     name: "LUV D-MAX DESDE",
-    mount: 55,
+    mount: 61,
     id: "08",
   },
   {
     name: "EPICA DESDE",
-    mount: 55,
+    mount: 67,
     id: "09",
   },
   {
@@ -61,12 +61,12 @@ const dataCars = [
   },
   {
     name: "GRAND VITARA DESDE",
-    mount: 55,
+    mount: 62,
     id: "11",
   },
   {
     name: "GRAND VITARA DESDE J3",
-    mount: 55,
+    mount: 62,
     id: "12",
   },
 ];
@@ -130,12 +130,12 @@ const CambioAceite: NextPage = () => {
           <img
             className="object-cover object-top w-full h-[80vh]  opacity-60"
             alt="banner"
-            src="/_DSC0341.jpeg"
+            src="/CambioAceiteyFiltroGarciaTunon.jpg"
           />
 
           <div className="container absolute inset-0 flex items-center py-20 mx-auto">
             <h1 className="text-4xl font-semibold text-white font-montserrat ">
-              CAMBIO DE ACEITE Y FILTRO
+              Oferta cambio de aceite y filtro
             </h1>
           </div>
         </div>
@@ -144,18 +144,19 @@ const CambioAceite: NextPage = () => {
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
                 Aprovecha{" "}
-                <span className="text-[#FF3D00]"> hasta 25% de descuento</span>{" "}
-                en Cambio de Aceite y Filtro con nuestra Promoción Especial
+                <span className="text-[#FF3D00]"> hasta 15% de descuento</span>{" "}
+                Aprovecha 15% de descuento en Cambio de Aceite y Filtro con
+                nuestra Promoción Especial en Cambio de Aceite y Filtro con
+                nuestra Promoción Especial
               </h2>
               <p className="mb-3 text-lg text-center">
-                ¿Vas a viajar en estas navidades o para recibir el año nuevo?
-                Realiza el cambio de aceite y filtro, y viaja con la seguridad
-                de tener tu vehículo al día.
+                ¡Disfruta este Carnaval sobre ruedas! Realiza el cambio de
+                Aceite y Filtro a tu Chevrolet con esta promoción especial y
+                viaja con la seguridad de tener tu vehículo al día.
               </p>
               <p className="mb-10 text-lg text-center">
-                Se un Cliente García-Tuñón y disfruta de todos los beneficios
-                que tenemos para ti, ya son 58 años de experiencia apoyando a
-                los venezolano a mantener su vehículo al día.
+                Disfruta de todos los beneficios que tenemos para ti, ya son 58
+                años apoyando a los venezolanos a mantener su Chevrolet al día.
               </p>
             </div>
 
@@ -191,7 +192,7 @@ const CambioAceite: NextPage = () => {
               </h2>
               <p className="mb-3 text-lg text-center">
                 Puedes contactarnos por cualquiera de estas vías. Tienes hasta
-                el 22 de diciembre para asistir a la jornada ¡Te esperamos!
+                el 04 de marzo para asistir a la jornada ¡Te esperamos!
               </p>
             </div>
             <div className="grid max-w-6xl grid-cols-1 gap-10 py-10 mx-auto lg:grid-cols-3 md:grid-cols-2">
