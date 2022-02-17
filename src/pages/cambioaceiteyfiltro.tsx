@@ -190,8 +190,9 @@ const CambioAceite: NextPage = () => {
               </h2>
               <p className="mb-3 text-lg text-center">
                 Puedes contactarnos por cualquiera de estas vías. Tienes hasta
-                el <span class="font-extrabold">04 de marzo</span> para asistir
-                a la jornada <span class="font-extrabold">¡Te esperamos!</span>
+                el <span className="font-extrabold">04 de marzo</span> para
+                asistir a la jornada{" "}
+                <span class="font-extrabold">¡Te esperamos!</span>
               </p>
             </div>
             <div className="grid max-w-6xl grid-cols-1 gap-10 py-10 mx-auto lg:grid-cols-3 md:grid-cols-2">
