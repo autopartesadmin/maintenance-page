@@ -16,7 +16,7 @@ const dataCars = [
   },
   {
     name: "CRUZE DESDE",
-    mount: 53,
+    mount: 56,
     id: "02",
   },
   {
@@ -128,14 +128,14 @@ const CambioAceite: NextPage = () => {
       <main className="relative z-10 font-yaldevi">
         <div className="relative bg-black">
           <img
-            className="object-cover object-top w-full h-[80vh]  opacity-60"
+            className="object-cover  w-full h-[80vh]  opacity-60 object-center"
             alt="banner"
             src="/CambioAceiteyFiltroGarciaTunon.jpg"
           />
 
           <div className="container absolute inset-0 flex items-center py-20 mx-auto">
-            <h1 className="text-4xl font-semibold text-white font-montserrat ">
-              Oferta cambio de aceite y filtro
+            <h1 className="text-4xl font-semibold text-white font-montserrat">
+              OFERTA CAMBIO DE ACEITE Y FILTRO
             </h1>
           </div>
         </div>
@@ -144,8 +144,8 @@ const CambioAceite: NextPage = () => {
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
                 Aprovecha{" "}
-                <span className="text-[#FF3D00]"> hasta 15% de descuento</span>{" "}
-                en Cambio de Aceite y Filtro con nuestra Promoción Especial
+                <span className="text-[#FF3D00]"> 15% de descuento</span> en
+                Cambio de Aceite y Filtro con nuestra Promoción Especial
               </h2>
               <p className="mb-3 text-lg text-center">
                 ¡Disfruta este Carnaval sobre ruedas! Realiza el cambio de
@@ -153,8 +153,8 @@ const CambioAceite: NextPage = () => {
                 viaja con la seguridad de tener tu vehículo al día.
               </p>
               <p className="mb-10 text-lg text-center">
-                Disfruta de todos los beneficios que tenemos para ti, ya son 58
-                años apoyando a los venezolanos a mantener su Chevrolet al día.
+                Conoce todos los beneficios que tenemos para ti, ya son 58 años
+                apoyando a los venezolanos a mantener su Chevrolet al día.
               </p>
             </div>
 
@@ -190,7 +190,8 @@ const CambioAceite: NextPage = () => {
               </h2>
               <p className="mb-3 text-lg text-center">
                 Puedes contactarnos por cualquiera de estas vías. Tienes hasta
-                el 04 de marzo para asistir a la jornada ¡Te esperamos!
+                el <span class="font-extrabold">04 de marzo</span> para asistir
+                a la jornada <span class="font-extrabold">¡Te esperamos!</span>
               </p>
             </div>
             <div className="grid max-w-6xl grid-cols-1 gap-10 py-10 mx-auto lg:grid-cols-3 md:grid-cols-2">
