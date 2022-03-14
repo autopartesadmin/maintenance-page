@@ -190,7 +190,7 @@ const CambioAceite: NextPage = () => {
               </h2>
               <p className="mb-3 text-lg text-center">
                 Puedes contactarnos por cualquiera de estas vías. Tienes hasta
-                el <span className="font-extrabold">04 de marzo</span> para
+                el <span className="font-extrabold">31 de marzo</span> para
                 asistir a la jornada{" "}
                 <span className="font-extrabold">¡Te esperamos!</span>
               </p>
