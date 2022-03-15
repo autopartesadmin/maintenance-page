@@ -95,7 +95,7 @@ const EntonacionMotor: NextPage = () => {
 
           <div className="container absolute inset-0 flex items-center py-20 mx-auto">
             <h1 className="text-4xl font-semibold text-white font-montserrat">
-              Oferta Entonación de Motor
+              Oferta Entonación de Motor + Empacadura Tapa Válvula
             </h1>
           </div>
         </div>
@@ -105,15 +105,16 @@ const EntonacionMotor: NextPage = () => {
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
                 Aprovecha un
                 <span className="text-[#FF3D00]"> 40% de descuento</span> en
-                Entonación del Motor
+                Entonación del Motor + Empacadura Tapa Válvula
               </h2>
               <p className="mb-3 text-lg text-center">
                 Reduce el consumo excesivo de gasolina y evita vibraciones en
-                neutro. Realiza la Entonación del Motor con esta Promoción
-                Especial y aumenta el rendimiento de tu Chevrolet.
+                neutro. Realiza la Entonación del Motor + Empacadura Tapa
+                Válvula con esta Promoción Especial y aumenta el rendimiento de
+                tu Chevrolet.
               </p>
               <p className="mb-10 text-lg text-center">
-                Conoce todos los beneficios que tenemos para ti, ya son 58 años
+                Conoce todos los beneficios que tenemos para ti; ya son 58 años
                 apoyando a los venezolanos a mantener su Chevrolet al día.
               </p>
             </div>
@@ -146,7 +147,7 @@ const EntonacionMotor: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-                Agenda tu cita para la Entonación de Motor
+                Solicitud de servicio en talleres García Tuñón
               </h2>
               <p className="mb-3 text-lg text-center">
                 Puedes contactarnos por cualquiera de estas vías. Tienes{" "}
