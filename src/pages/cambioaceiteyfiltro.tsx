@@ -148,9 +148,8 @@ const CambioAceite: NextPage = () => {
                 Cambio de Aceite y Filtro con nuestra Promoción Especial
               </h2>
               <p className="mb-3 text-lg text-center">
-                ¡Disfruta este Carnaval sobre ruedas! Realiza el cambio de
-                Aceite y Filtro a tu Chevrolet con esta promoción especial y
-                viaja con la seguridad de tener tu vehículo al día.
+                Realiza el cambio de Aceite y Filtro a tu Chevrolet con esta
+                promoción especial y mantén tu vehículo al día
               </p>
               <p className="mb-10 text-lg text-center">
                 Conoce todos los beneficios que tenemos para ti, ya son 58 años
