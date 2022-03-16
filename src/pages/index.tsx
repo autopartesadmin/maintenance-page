@@ -34,23 +34,44 @@ const Home: NextPage = () => {
             <h3 className="mt-4 text-2xl text-center text-white">
               Así como tu vehículo, nosotros también necesitamos mantenimiento
             </h3>
-            <p className="mt-4 text-center text-white">
+
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 text-center text-white"
+            >
               Estamos renovando nuestro sitio web, mientras te invitamos a
               seguirnos de cerca en
-            </p>
+            </a>
             <div className="flex justify-center gap-8 mt-8 text-white">
-              <p className="flex flex-col items-center justify-center">
+              <a
+                href="https://api.whatsapp.com/send?phone=584241347437"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center justify-center"
+              >
                 <AiOutlineWhatsApp className="text-5xl" />
-                0424 1347437
-              </p>
-              <p className="flex flex-col items-center justify-center">
+                +58 424-1347437
+              </a>
+              <a
+                href="https://www.instagram.com/garcia_tunon/?hl=es-la"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center justify-center"
+              >
                 <AiOutlineInstagram className="text-5xl" />
-                @garcia_tunon
-              </p>
-              <p className="flex flex-col items-center justify-center">
+                @Garcia_Tunon
+              </a>
+              <a
+                href="tel:+582122087601"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center justify-center"
+              >
                 <AiOutlinePhone className="text-5xl" />
-                0212 2087607
-              </p>
+                +58 2122087601
+              </a>
             </div>
           </div>
         </div>
