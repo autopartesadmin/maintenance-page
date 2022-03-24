@@ -8,6 +8,7 @@ import Slider from "react-slick";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsWhatsapp, BsTelephoneForward, BsChevronRight } from "react-icons/bs";
 import { CgList } from "react-icons/cg";
+
 const dataCars = [
   {
     name: "AVEO DESDE",

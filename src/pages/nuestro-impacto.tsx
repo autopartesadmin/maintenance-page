@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineDown } from "react-icons/ai";
-import { Title, Toggle } from "@/components";
-import { Link } from "@/components";
+import { Title, Toggle, Link } from "@/components";
 
 const NuestroImpacto = () => {
   return (
