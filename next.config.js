@@ -1,13 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: "/cambioaceiteyfiltro",
-  //       destination: "/",
-  //       permanent: true,
-  //     },
-  //   ];
-  // },
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
 };

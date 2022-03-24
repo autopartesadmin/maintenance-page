@@ -1,23 +1,29 @@
-import "@/styles/globals.css";
 import * as React from "react";
-
-import type { AppProps } from "next/app";
+import "../styles/globals.css";
+import type { NextComponentType } from "next";
+import type { AppContext, AppInitialProps, AppLayoutProps } from "next/app";
 import { HubspotProvider } from "@aaronhayes/react-use-hubspot-form";
 import Script from "next/script";
-import { useRouter } from "next/router";
 import { GA_MEASUREMENT_ID, pageview } from "@/lib/gtag";
+import { useRouter } from "next/router";
 
-function MyApp({ Component, pageProps }: AppProps) {
+const App: NextComponentType<AppContext, AppInitialProps, AppLayoutProps> = ({
+  Component,
+  pageProps,
+}) => {
+  const getLayout = Component.getLayout ?? ((page) => page);
   const router = useRouter();
+
   React.useEffect(() => {
     router.events.on("routeChangeComplete", pageview);
     return () => {
       router.events.off("routeChangeComplete", pageview);
     };
   }, [router.events]);
+
   return (
     <HubspotProvider>
-      <Component {...pageProps} />
+      {getLayout(<Component {...pageProps} />)}
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=AW-10823040061"
@@ -48,6 +54,5 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Script>
     </HubspotProvider>
   );
-}
-
-export default MyApp;
+};
+export default App;
