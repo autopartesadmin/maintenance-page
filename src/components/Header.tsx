@@ -21,7 +21,7 @@ const Header = () => {
       <div className="container relative hidden mx-auto lg:flex">
         <div className="absolute inset-x-0 z-50 flex">
           <div className="w-1/5 p-4">
-            <Link href="/" className="relative block h-28">
+            {/* <Link href="/" className="relative block h-28">
               <Image
                 alt="logo"
                 className="z-10"
@@ -30,7 +30,7 @@ const Header = () => {
                 objectFit="contain"
                 quality={100}
               />
-            </Link>
+            </Link> */}
           </div>
           <div className="flex items-center justify-end w-4/5 p-4">
             <Navbar />
@@ -40,7 +40,7 @@ const Header = () => {
 
       <div className="fixed flex z-40 bg-[#27272B] lg:hidden inset-x-0 top-0 p-2">
         <div className="w-1/3">
-          <Link href="/" className="relative block w-full h-20">
+          {/* <Link href="/" className="relative block w-full h-20">
             <Image
               alt="logo"
               className="z-10"
@@ -49,7 +49,7 @@ const Header = () => {
               objectFit="contain"
               quality={100}
             />
-          </Link>
+          </Link> */}
         </div>
         <div className="flex items-center justify-end w-2/3 mr-5 sm:mr-20">
           <button onClick={() => setOpen(!open)}>
