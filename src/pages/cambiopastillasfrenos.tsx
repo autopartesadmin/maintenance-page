@@ -143,7 +143,7 @@ const CambioAceite: NextPage = () => {
                     </p>
                     <div className="relative">
                       <Img
-                        src={`/Sin-título-1_${ele.id}.png`}
+                        src={`/car_${ele.name.toLowerCase()}.png`}
                         width={350}
                         height={350}
                       />
