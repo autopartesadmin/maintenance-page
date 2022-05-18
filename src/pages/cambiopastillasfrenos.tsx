@@ -27,12 +27,12 @@ const dataCars = [
   },
   {
     name: "CRUZE",
-    mount: 128,
+    mount: 133,
     id: "04",
   },
   {
     name: "ORLANDO",
-    mount: 128,
+    mount: 133,
     id: "05",
   },
 ];
