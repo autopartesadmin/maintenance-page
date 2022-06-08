@@ -12,32 +12,32 @@ import { CgList } from "react-icons/cg";
 const dataCars = [
   {
     name: "SPARK",
-    mount: 99.99,
+    mount: 39.99,
     id: "01",
   },
   {
     name: "AVEO",
-    mount: 119.99,
+    mount: 39.99,
     id: "02",
   },
   {
     name: "OPTRA DESIGN",
-    mount: 129.99,
+    mount: 39.99,
     id: "03",
   },
   {
     name: "OPTRA LIMITED",
-    mount: 119.99,
+    mount: 39.99,
     id: "04",
   },
   {
     name: "CRUZE",
-    mount: 119.99,
+    mount: 39.99,
     id: "05",
   },
   {
     name: "LUV D-MAX",
-    mount: 149.99,
+    mount: 49.99,
     id: "06",
   },
 ];
@@ -115,7 +115,7 @@ const CambioAceite: NextPage = () => {
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
               ¡Arranca junio con fuerza! Haz el mantenimiento de inyectores de gasolina en García-Tuñón con esta súper promoción {" "}
-                <span className="text-[#FF3D00]"> desde $99.99</span>
+                <span className="text-[#FF3D00]"> desde $39.99</span>
               </h2>
               <p className="mb-3 text-lg text-center">
               La pérdida de fuerza en la aceleración del vehículo se asocia a Inyectores obstruidos
