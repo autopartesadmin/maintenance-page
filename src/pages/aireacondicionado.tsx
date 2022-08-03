@@ -136,7 +136,7 @@ const AireAcondicionado: NextPage = () => {
 
           <div className="container absolute inset-0 flex items-center py-20 mx-auto">
             <h1 className="text-4xl font-semibold text-white font-montserrat">
-              JULIO MEGA FRÍO 
+              JULIO MEGA FRÍO
             </h1>
           </div>
         </div>
@@ -149,17 +149,17 @@ const AireAcondicionado: NextPage = () => {
               en nuestros talleres
               </h2>
               <p className="mb-3 text-lg text-center">
-              La causa más común de fallas en el aire acondicionado de los carros es la falta de mantenimiento; 
-               esto se le atribuye a insuficiencias en la lubricación, fugas del líquido refrigerante o aceites. 
+              La causa más común de fallas en el aire acondicionado de los carros es la falta de mantenimiento;
+               esto se le atribuye a insuficiencias en la lubricación, fugas del líquido refrigerante o aceites.
               <b> ¡Haz la revisión del aire acondicionado GRATIS con los expertos!</b>
               </p>
               <p className="mb-3 text-lg text-center">
-              Tenemos las herramientas de última tecnología para realizar la revisión del 
+              Tenemos las herramientas de última tecnología para realizar la revisión del
               aire acondicionado de tu Chevrolet. ¡Dile adiós al calor!
               </p>
               <p className="mb-10 text-lg text-center">
-              Obtén también por este mes la revisión mecánica de 25 puntos de seguridad GRATIS, 
-              y si deseas recargar el gas del vehículo realiza este servicio por $49.99 
+              Obtén también por este mes la revisión mecánica de 25 puntos de seguridad GRATIS,
+              y si deseas recargar el gas del vehículo realiza este servicio por Ref. 49.99
               (o su equivalente en bolívares al cambio del día según lo establecido por el BCV)
               </p>
               <p className="mb-10 text-lg text-center">
@@ -176,7 +176,7 @@ const AireAcondicionado: NextPage = () => {
                       {ele.name}
                     </h5>
                     <h6 className="font-montserrat text-6xl font-bold text-right text-[#FF3D00]">
-                      ${ele.mount}
+                      Ref. {ele.mount}
                     </h6>
                     <p className="text-right font-bold text-[#FF3D00]">
                       Oferta

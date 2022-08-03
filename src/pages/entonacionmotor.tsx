@@ -128,7 +128,7 @@ const EntonacionMotor: NextPage = () => {
                       {ele.name}
                     </h5>
                     <h6 className="font-montserrat text-6xl font-bold text-right text-[#FF3D00]">
-                      ${ele.mount}
+                      Ref. {ele.mount}
                     </h6>
                     <p className="text-right font-bold text-[#FF3D00]">
                       Oferta

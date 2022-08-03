@@ -115,7 +115,7 @@ const CambioAceite: NextPage = () => {
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
               ¡Arranca junio con fuerza! Haz el mantenimiento de inyectores de gasolina en García-Tuñón con esta súper promoción {" "}
-                <span className="text-[#FF3D00]"> desde $39.99</span>
+                <span className="text-[#FF3D00]"> desde Ref. 39.99</span>
               </h2>
               <p className="mb-3 text-lg text-center">
               La pérdida de fuerza en la aceleración del vehículo se asocia a Inyectores obstruidos
@@ -143,7 +143,7 @@ const CambioAceite: NextPage = () => {
                       {ele.name}
                     </h5>
                     <h6 className="font-montserrat text-6xl font-bold text-right text-[#FF3D00]">
-                      ${ele.mount}
+                      Ref. {ele.mount}
                     </h6>
                     <p className="text-right font-bold text-[#FF3D00]">
                       Oferta

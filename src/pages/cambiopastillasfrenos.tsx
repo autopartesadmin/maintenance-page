@@ -110,7 +110,7 @@ const CambioAceite: NextPage = () => {
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
               ¡Tu seguridad es importante! Cambia las pastillas de los frenos de tu Chevrolet {" "}
-                <span className="text-[#FF3D00]"> desde $65</span>
+                <span className="text-[#FF3D00]"> desde Ref. 65</span>
               </h2>
               <p className="mb-3 text-lg text-center">
                 ¿Tu vehículo presenta chasquidos, vibraciones en los pedales o volantes o sonidos extraños?
@@ -136,7 +136,7 @@ const CambioAceite: NextPage = () => {
                       {ele.name}
                     </h5>
                     <h6 className="font-montserrat text-6xl font-bold text-right text-[#FF3D00]">
-                      ${ele.mount}
+                      Ref. {ele.mount}
                     </h6>
                     <p className="text-right font-bold text-[#FF3D00]">
                       Oferta
