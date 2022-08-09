@@ -11,63 +11,63 @@ import { CgList } from "react-icons/cg";
 
 const dataCars = [
   {
-    name: "AVEO DESDE",
-    mount: 47,
+    name: "SPARK",
+    mount: 49.99,
     id: "01",
   },
   {
-    name: "CRUZE DESDE",
-    mount: 56,
+    name: "AVEO",
+    mount: 52.99,
     id: "02",
   },
   {
-    name: "OPTRA DESDE",
-    mount: 53,
+    name: "OPTRA",
+    mount: 58.99,
     id: "03",
   },
   {
-    name: "SPARK DESDE",
-    mount: 50,
+    name: "CRUZE",
+    mount: 56.99,
     id: "04",
   },
   {
-    name: "SILVERADO DESDE",
-    mount: 63,
+    name: "SILVERADO",
+    mount: 69.99,
     id: "05",
   },
   {
-    name: "ORLANDO DESDE",
-    mount: 50,
+    name: "ORLANDO",
+    mount: 56.99,
     id: "06",
   },
   {
-    name: "TAHOE DESDE",
-    mount: 63,
+    name: "TAHOE",
+    mount: 69.99,
     id: "07",
   },
   {
-    name: "LUV D-MAX DESDE",
-    mount: 61,
+    name: "LUV D-MAX",
+    mount: 65.99,
     id: "08",
   },
   {
-    name: "EPICA DESDE",
-    mount: 67,
+    name: "EPICA",
+    mount: 65.99,
     id: "09",
   },
   {
-    name: "CAPTIVA DESDE",
-    mount: 60,
+    name: "CAPTIVA",
+    mount: 66.99,
     id: "10",
   },
   {
-    name: "GRAND VITARA DESDE",
-    mount: 62,
+    name: "GRAND VITARA",
+    mount: 63.99,
     id: "11",
   },
   {
-    name: "GRAND VITARA DESDE J3",
-    mount: 62,
+    name: "GRAND VITARA J3",
+    mount: 63.99,
     id: "12",
   },
 ];
@@ -135,8 +135,8 @@ const CambioAceite: NextPage = () => {
           />
 
           <div className="container absolute inset-0 flex items-center py-20 mx-auto">
-            <h1 className="text-4xl font-semibold text-white font-montserrat">
-              OFERTA CAMBIO DE ACEITE Y FILTRO
+            <h1 className="text-4xl pl-[36px] font-semibold text-white font-montserrat">
+              CAMBIO DE ACEITE Y FILTRO
             </h1>
           </div>
         </div>
@@ -144,17 +144,43 @@ const CambioAceite: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-                Aprovecha{" "}
-                <span className="text-[#FF3D00]"> 15% de descuento</span> en
-                Cambio de Aceite y Filtro con nuestra Promoción Especial
+                Realiza el servicio de Cambio de Aceite y Filtro a tu Chevrolet desde
+                <span className="text-[#FF3D00]"> Ref. 49.99</span>
               </h2>
               <p className="mb-3 text-lg text-center">
-                Realiza el cambio de Aceite y Filtro a tu Chevrolet con esta
-                promoción especial y mantén tu vehículo al día
+                Durante todo el mes de agosto podrás disfrutar de nuestra jornada de
+                 Cambio de Aceite y Filtro para que pongas tu Chevrolet al día y
+                 ¡Disfrutes las vacaciones con tu vehículo en perfecto estado!
+              </p>
+              <p className="mb-6 text-lg text-center">
+                Ven este mes y obtén totalmente <strong>GRATIS</strong> la revisión mecánica de 25 puntos y escanéo.
+              </p>
+              <p className="mb-1 text-lg text-center">
+                Nuestro servicio incluye:
+              </p>
+              <p className="mb-1 text-lg text-center">
+                - Aceites mineral, semisintético y sintético (depende del modelo de tu Chevrolet).
+              </p>
+              <p className="mb-1 text-lg text-center">
+                - Filtro de aceite de motor original GM.
+              </p>
+              <p className="mb-1 text-lg text-center">
+                - Mano de obra calificada, técnicos especializados Chevrolet.
+              </p>
+              <p className="mb-1 text-lg text-center">
+                - Asesor de servicio personalizado que te atenderá durante todo el servicio.
+              </p>
+              <p className="mb-1 text-lg text-center">
+                - Entrega de repuestos cambiados.
+              </p>
+              <p className="mb-1 text-lg text-center">
+                - Garantía de 1 mes.
+              </p>
+              <p className="mb-6 text-lg text-center">
+                - Lavado y acondicionado de cortesía.
               </p>
               <p className="mb-10 text-lg text-center">
-                Conoce todos los beneficios que tenemos para ti, ya son 58 años
-                apoyando a los venezolanos a mantener su Chevrolet al día.
+                Acércate a nuestras dos sedes, en Chacao y Los Palos Grandes y vive la experiencia de ser un cliente García-Tuñón. Ya son 58 años cuidando tu Chevrolet.
               </p>
             </div>
 
@@ -173,7 +199,7 @@ const CambioAceite: NextPage = () => {
                     </p>
                     <div className="relative">
                       <Img
-                        src={`/Sin-título-1_${ele.id}.png`}
+                        src={`/car_${ele.name.replace(/ /g,'_').toLowerCase()}.png`}
                         width={350}
                         height={350}
                       />
@@ -190,7 +216,7 @@ const CambioAceite: NextPage = () => {
               </h2>
               <p className="mb-3 text-lg text-center">
                 Puedes contactarnos por cualquiera de estas vías. Tienes hasta
-                el <span className="font-extrabold">31 de marzo</span> para
+                el <span className="font-extrabold">31 de agosto</span> para
                 asistir a la jornada{" "}
                 <span className="font-extrabold">¡Te esperamos!</span>
               </p>
