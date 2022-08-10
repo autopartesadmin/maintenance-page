@@ -191,12 +191,12 @@ const CambioAceite: NextPage = () => {
                     <h5 className="text-3xl font-bold text-right font-montserrat">
                       {ele.name}
                     </h5>
+                    <h6 className="text-3xl font-bold text-right font-montserrat text-[#FF3D00]">
+                      desde
+                    </h6>
                     <h6 className="font-montserrat text-6xl font-bold text-right text-[#FF3D00]">
                       Ref. {ele.mount}
                     </h6>
-                    <p className="text-right font-bold text-[#FF3D00]">
-                      Oferta
-                    </p>
                     <div className="relative">
                       <Img
                         src={`/car_${ele.name.replace(/ /g,'_').toLowerCase()}.png`}
