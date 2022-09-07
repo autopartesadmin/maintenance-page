@@ -19,7 +19,7 @@ const Footer = () => {
     {
       title: "LOS PALOS GRANDES",
       address: {
-        address: "Avenida Francisco de Miranda, Caracas 1060, Miranda",
+        address: "Av. Francisco de Miranda, Caracas 1060, Miranda",
         url: "https://www.google.com/maps/place/Concesionario+Garc%C3%ADa+Tu%C3%B1on/@10.4966106,-66.8467397,17z/data=!3m1!4b1!4m5!3m4!1s0x8c2a59ad92a0f4cb:0xfcac088ea65014cf!8m2!3d10.4966106!4d-66.844551?hl=es",
       },
     },
@@ -107,15 +107,15 @@ const Footer = () => {
               <p>8:00 a.m a 5:00 p.m</p>
             </div>
             <div className="">
-              <h3 className="text-[#E7B864] text-2xl font-semibold">
-                Medios de contacto
-              </h3>
+              <h3 className="text-[#E7B864] text-2xl font-semibold">Ayuda</h3>
               {/* <p className="mt-4 text-lg font-bold">Teléfono</p>
               <p>Lorem ipsum dolor sit amet</p>
               <p className="mt-4 text-lg font-bold">WhatsApp</p>
               <p>Lorem ipsum dolor sit amet</p> */}
               <p className="mt-4 text-lg font-bold">Correo</p>
               <a href="mailto:info@garciatunon.com">info@garciatunon.com</a>
+              <p className="mt-4 text-lg font-bold">Términos de Uso</p>
+              <a href="politica-de-privacidad">Politica de Privacidad</a>
             </div>
             <div className="">
               <h3 className="text-[#E7B864] text-2xl font-semibold">
