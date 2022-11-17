@@ -12,33 +12,43 @@ import { CgList } from "react-icons/cg";
 const dataCars = [
   {
     name: "SPARK",
-    mount: 39.99,
+    mount: 73,
     id: "01",
   },
   {
     name: "AVEO",
-    mount: 39.99,
+    mount: 73,
     id: "02",
   },
   {
-    name: "OPTRA DESIGN",
-    mount: 39.99,
+    name: "OPTRA",
+    mount: 73,
     id: "03",
   },
   {
-    name: "OPTRA LIMITED",
-    mount: 39.99,
+    name: "CRUZE",
+    mount: 83,
     id: "04",
   },
   {
-    name: "CRUZE",
-    mount: 39.99,
+    name: "LUV D-MAX",
+    mount: 91,
     id: "05",
   },
   {
-    name: "LUV D-MAX",
-    mount: 49.99,
+    name: "GRAND VITARA J3",
+    mount: 106,
     id: "06",
+  },
+  {
+    name: "TAHOE",
+    mount: 107,
+    id: "07",
+  },
+  {
+    name: "SILVERADO",
+    mount: 107,
+    id: "08",
   },
 ];
 
@@ -106,7 +116,7 @@ const CambioAceite: NextPage = () => {
 
           <div className="container absolute inset-0 flex items-center py-20 mx-auto">
             <h1 className="text-4xl font-semibold text-white font-montserrat">
-              PROMO ULTRA INYECTORES
+              LIMPIEZA DE INYECTORES
             </h1>
           </div>
         </div>
@@ -114,23 +124,34 @@ const CambioAceite: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-              ¡Arranca junio con fuerza! Haz el mantenimiento de inyectores de gasolina en García-Tuñón con esta súper promoción {" "}
-                <span className="text-[#FF3D00]"> desde Ref. 39.99</span>
+                ¡En noviembre siéntete como en un fórmula 1! Realiza la limpieza
+                de los inyectores de gasolina en García-Tuñón con este súper
+                precio <span className="text-[#FF3D00]">desde Ref. 73</span>
               </h2>
               <p className="mb-3 text-lg text-center">
-              La pérdida de fuerza en la aceleración del vehículo se asocia a Inyectores obstruidos
-              ¡Revisa el funcionamiento de Inyectores de gasolina en nuestro taller y mantén tu vehículo al día!
+                La pérdida de fuerza en la aceleración del vehículo se asocia a
+                Inyectores obstruidos ¡Revisa el funcionamiento de Inyectores de
+                gasolina en nuestro taller y mantén tu vehículo al día!
               </p>
               <p className="mb-3 text-lg text-center">
-              Nuestro servicio de mantenimiento de inyectores de gasolina en promoción incluye: limpieza con ultrasonido,
-              limpieza del cuerpo de aceleración, sustitución de filtro de aire motor, filtro de gasolina y bujías con Repuestos Originales;
-              junto con revisión de 25 puntos + lavado y acondicionamiento de tu vehículo totalmente <b>GRATIS</b>.
+                Nuestro servicio de mantenimiento de inyectores de gasolina en
+                promoción incluye: limpieza con ultrasonido, Sustitución de
+                microfiltros con repuestos originales n, sustitución de filtro
+                de aire motor, filtro de gasolina y bujías con Repuestos
+                Originales; junto con revisión de 25 puntos + lavado y
+                acondicionamiento de tu vehículo totalmente <b>GRATIS</b>.
               </p>
               <p className="mb-3 text-lg text-center">
-              ¡Realiza la limpieza de inyectores en Caracas y no dejes que tu Chevrolet se detenga!
+                Al hacer este servicio podrás disfrutar de una revisión de 25
+                puntos + lavado y acondicionamiento de tu vehículo totalmente{" "}
+                <b>GRATIS</b>
+              </p>
+              <p className="mb-3 text-lg text-center">
+                ¡Realiza la limpieza de inyectores en Caracas y no dejes que tu
+                Chevrolet se detenga!
               </p>
               <p className="mb-10 text-lg text-center">
-                Conoce todos los beneficios que tenemos para ti, ya son 58 años
+                Conoce todos los beneficios que tenemos para ti, ya son 59 años
                 apoyando a los venezolanos a mantener su Chevrolet al día.
               </p>
             </div>
@@ -150,7 +171,9 @@ const CambioAceite: NextPage = () => {
                     </p>
                     <div className="relative">
                       <Img
-                        src={`/car_${ele.name.replace(' ','_').toLowerCase()}.png`}
+                        src={`/car_${ele.name
+                          .replace(/ /g, "_")
+                          .toLowerCase()}.png`}
                         width={350}
                         height={350}
                       />
@@ -163,10 +186,13 @@ const CambioAceite: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-                Agenda tu cita para disfrutar nuestra PROMO ULTRA INYECTORES
+                Agenda tu cita
               </h2>
               <p className="mb-3 text-lg text-center">
-              Tienes desde el 1 al 31 de junio <span className="font-extrabold">¡Te esperamos!</span>
+                Agenda tu cita para disfrutar este precio especial en Limpieza
+                de Inyectores. Desde el{" "}
+                <strong>01 hasta el 30 de noviembre</strong>{" "}
+                <span className="font-extrabold">¡Te esperamos!</span>
               </p>
             </div>
             <div className="grid max-w-6xl grid-cols-1 gap-10 py-10 mx-auto lg:grid-cols-3 md:grid-cols-2">

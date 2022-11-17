@@ -12,62 +12,62 @@ import { CgList } from "react-icons/cg";
 const dataCars = [
   {
     name: "SPARK",
-    mount: 49.99,
+    mount: 48.0,
     id: "01",
   },
   {
     name: "AVEO",
-    mount: 52.99,
+    mount: 51.06,
     id: "02",
   },
   {
     name: "OPTRA",
-    mount: 58.99,
+    mount: 57.06,
     id: "03",
   },
   {
     name: "CRUZE",
-    mount: 56.99,
+    mount: 59.68,
     id: "04",
   },
   {
     name: "SILVERADO",
-    mount: 69.99,
+    mount: 67.43,
     id: "05",
   },
   {
     name: "ORLANDO",
-    mount: 56.99,
+    mount: 53.48,
     id: "06",
   },
   {
     name: "TAHOE",
-    mount: 69.99,
+    mount: 67.19,
     id: "07",
   },
   {
     name: "LUV D-MAX",
-    mount: 65.99,
+    mount: 64.19,
     id: "08",
   },
   {
     name: "EPICA",
-    mount: 65.99,
+    mount: 70.26,
     id: "09",
   },
   {
     name: "CAPTIVA",
-    mount: 66.99,
+    mount: 64.26,
     id: "10",
   },
   {
     name: "GRAND VITARA",
-    mount: 63.99,
+    mount: 61.43,
     id: "11",
   },
   {
     name: "GRAND VITARA J3",
-    mount: 63.99,
+    mount: 61.43,
     id: "12",
   },
 ];
@@ -144,22 +144,26 @@ const CambioAceite: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-                Realiza el servicio de Cambio de Aceite y Filtro a tu Chevrolet desde
-                <span className="text-[#FF3D00]"> Ref. 49.99</span>
+                Realiza el servicio de Cambio de Aceite y Filtro a tu Chevrolet
+                desde
+                <span className="text-[#FF3D00]"> Ref. 48</span>
               </h2>
               <p className="mb-3 text-lg text-center">
-                Durante todo el mes de agosto podrás disfrutar de nuestra jornada de
-                 Cambio de Aceite y Filtro para que pongas tu Chevrolet al día y
-                 ¡Disfrutes las vacaciones con tu vehículo en perfecto estado!
+                Durante todo el mes de noviembre podrás disfrutar de nuestra
+                jornada de Cambio de Aceite y Filtro para que pongas tu
+                Chevrolet al día y te sientas como en un fórmula 1.
               </p>
               <p className="mb-6 text-lg text-center">
-                Ven este mes y obtén totalmente <strong>GRATIS</strong> la revisión mecánica de 25 puntos y escanéo.
+                Ven este mes y obtén totalmente <strong>GRATIS</strong> la
+                revisión mecánica de 25 puntos junto con lavado y acondicionado
+                de cortesía.
               </p>
               <p className="mb-1 text-lg text-center">
                 Nuestro servicio incluye:
               </p>
               <p className="mb-1 text-lg text-center">
-                - Aceites mineral, semisintético y sintético (depende del modelo de tu Chevrolet).
+                - Aceites mineral, semisintético y sintético (depende del modelo
+                de tu Chevrolet).
               </p>
               <p className="mb-1 text-lg text-center">
                 - Filtro de aceite de motor original GM.
@@ -168,19 +172,17 @@ const CambioAceite: NextPage = () => {
                 - Mano de obra calificada, técnicos especializados Chevrolet.
               </p>
               <p className="mb-1 text-lg text-center">
-                - Asesor de servicio personalizado que te atenderá durante todo el servicio.
+                - Asesor de servicio personalizado que te atenderá durante todo
+                el servicio.
               </p>
               <p className="mb-1 text-lg text-center">
                 - Entrega de repuestos cambiados.
               </p>
-              <p className="mb-1 text-lg text-center">
-                - Garantía de 1 mes.
-              </p>
-              <p className="mb-6 text-lg text-center">
-                - Lavado y acondicionado de cortesía.
-              </p>
+              <p className="mb-1 text-lg text-center">- Garantía de 1 mes.</p>
               <p className="mb-10 text-lg text-center">
-                Acércate a nuestras dos sedes, en Chacao y Los Palos Grandes y vive la experiencia de ser un cliente García-Tuñón. Ya son 58 años cuidando tu Chevrolet.
+                Acércate a nuestras dos sedes, en Chacao y Los Palos Grandes y
+                vive la experiencia de ser un cliente García-Tuñón. Ya son 59
+                años cuidando tu Chevrolet.
               </p>
             </div>
 
@@ -191,15 +193,14 @@ const CambioAceite: NextPage = () => {
                     <h5 className="text-3xl font-bold text-right font-montserrat">
                       {ele.name}
                     </h5>
-                    <h6 className="text-3xl font-bold text-right font-montserrat text-[#FF3D00]">
-                      desde
-                    </h6>
                     <h6 className="font-montserrat text-6xl font-bold text-right text-[#FF3D00]">
                       Ref. {ele.mount}
                     </h6>
                     <div className="relative">
                       <Img
-                        src={`/car_${ele.name.replace(/ /g,'_').toLowerCase()}.png`}
+                        src={`/car_${ele.name
+                          .replace(/ /g, "_")
+                          .toLowerCase()}.png`}
                         width={350}
                         height={350}
                       />
@@ -212,12 +213,11 @@ const CambioAceite: NextPage = () => {
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h2 className="mb-10 text-3xl font-semibold text-center font-montserrat">
-                Agenda tu cita para realizar el cambio de Aceite y Filtro
+                Agenda tu cita
               </h2>
               <p className="mb-3 text-lg text-center">
                 Puedes contactarnos por cualquiera de estas vías. Tienes hasta
-                el <span className="font-extrabold">31 de agosto</span> para
-                asistir a la jornada{" "}
+                el <strong>30 de noviembre</strong> para asistir a la jornada{" "}
                 <span className="font-extrabold">¡Te esperamos!</span>
               </p>
             </div>
